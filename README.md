@@ -2,7 +2,6 @@
 
 The revision cockpit for A-Level students. Track the AQA syllabus, review flashcards with spaced repetition (SM-2), log past papers, follow a day-by-day study plan, and keep a daily streak.
 
-StudyStreak was built during the submission period. The AI flashcard generation uses NVIDIA Nemotron on Nebius Token Factory, and the card-grouping feature uses it too.
 
 **Live demo:** [
 ](https://studystreakz.base44.app)
@@ -17,7 +16,11 @@ The same Nemotron model also powers the "group imported Anki cards into topic de
 - Backend function: `generateFlashcards` calls the Token Factory chat completions API
 - The API key is stored as a server-side secret and is never exposed in the front end
 
+The Nemotron call lives in `base44/shared/nebius.ts` and is used by `base44/functions/generateFlashcards`.
+
 ### What was added during the contest
+
+StudyStreak was built during the submission period, starting in early September 2026. The AI flashcard generation uses NVIDIA Nemotron on Nebius Token Factory, and the card-grouping feature uses it too.
 
 ## Features
 - Syllabus tracker with traffic-light mastery
