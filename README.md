@@ -2,6 +2,8 @@
 
 The revision cockpit for A-Level students. Track the AQA syllabus, review flashcards with spaced repetition (SM-2), log past papers, follow a day-by-day study plan, and keep a daily streak.
 
+StudyStreak was built during the submission period. The AI flashcard generation uses NVIDIA Nemotron on Nebius Token Factory, and the card-grouping feature uses it too.
+
 **Live demo:** [
 ](https://studystreakz.base44.app)
 ## Hackathon: Nebius x NVIDIA Global AI Hackathon
